@@ -63,13 +63,13 @@ const photos = [
   },
   {
     title: "A melhor amiga de quatro patas",
-    image: "assets/media/images/gallery/pic11.PNG",
+    image: "assets/media/images/gallery/pic11.jpeg",
     description:
       "A Boo teve a sorte de encontrar alguém que a ama de verdade"
   },
   {
     title: "Como um dente-de-leão",
-    image: "assets/media/images/gallery/pic12.PNG",
+    image: "assets/media/images/gallery/pic12.jpeg",
     description:
       "Assim como um dente-de-leão espalha suas sementes ao vento, você espalha amor por onde passa."
   }
