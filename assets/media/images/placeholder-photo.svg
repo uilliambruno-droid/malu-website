@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Espaco reservado para foto da Malu</title>
+  <desc id="desc">Placeholder elegante em preto, branco e dourado.</desc>
+  <rect width="1200" height="900" fill="#f6f4f0"/>
+  <circle cx="1010" cy="160" r="210" fill="#111111" opacity=".08"/>
+  <circle cx="190" cy="760" r="240" fill="#b88a44" opacity=".16"/>
+  <rect x="110" y="110" width="980" height="680" fill="none" stroke="#111111" stroke-width="4"/>
+  <path d="M250 630 445 430l130 132 85-88 300 260H250Z" fill="#111111" opacity=".12"/>
+  <circle cx="810" cy="310" r="80" fill="#b88a44" opacity=".5"/>
+  <text x="600" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#111111">Foto da Malu</text>
+</svg>

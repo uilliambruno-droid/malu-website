@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Uma homenagem de aniversario para Malu.">
+    <title>Feliz Aniversario, Malu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Navegacao principal">
+      <div class="container">
+        <a class="navbar-brand brush-title" href="#inicio">Malu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#feliz-aniversario">Feliz aniversario</a></li>
+            <li class="nav-item"><a class="nav-link" href="#melhor-mulher">A melhor mulher do mundo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#melhor-dia">Para melhorar o seu dia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#vale-presentes">Vale Presentes Infinitos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero-section" id="inicio" aria-label="Homenagem para Malu">
+        <div class="container">
+          <div class="hero-stack">
+            <div class="hero-title hero-title-top">
+              <h1 class="brush-title">Para a melhor mulher do Mundo</h1>
+            </div>
+            <div class="hero-image-panel parallax-card" data-parallax-speed="-0.08" role="img" aria-label="Imagem principal da Malu"></div>
+            <div class="hero-title hero-title-bottom">
+              <h2 class="brush-title hero-subtitle">Feliz Aniversario</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-space birthday-section" id="feliz-aniversario">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <div class="portrait-frame parallax-card" data-parallax-speed="0.05">
+                <img src="assets/media/images/second_section.png" alt="Malu sorrindo em um momento especial" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="brush-title section-title message-title">A melhor mulher do mundo</h2>
+              <div class="copy-block">
+                <p>Se eu pudesse escolher qualquer lugar do mundo para estar hoje, escolheria exatamente onde estou: ao seu lado.</p>
+                <p>Entre todas as coincidências da vida, encontrar você em Dublin foi a mais bonita delas.</p>
+                <p>Admiro sua força, sua inteligência, seu coração e a forma única como você ilumina qualquer pessoa que tem a sorte de conhecê-la.</p>
+                <p>Neste aniversário, desejo que a vida lhe devolva em dobro toda a felicidade que você espalha para quem está ao seu redor.</p>
+                <p>Feliz aniversário, meu bilhete premiado.</p>
+              </div>
+              <p class="signature brush-title">Com amor, seu bem</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-space gallery-section" id="melhor-mulher">
+        <div class="container">
+          <div class="section-heading parallax-card" data-parallax-speed="0.035">
+            <h2 class="brush-title section-title">A melhor mulher do mundo</h2>
+          </div>
+          <div class="row g-4" id="photoGallery"></div>
+        </div>
+      </section>
+
+      <section class="section-space video-section parallax-section" id="melhor-dia">
+        <div class="video-backdrop"></div>
+        <div class="container position-relative">
+          <div class="section-heading light-heading parallax-card" data-parallax-speed="0.035">
+            <h2 class="brush-title section-title">Para melhorar o seu dia</h2>
+          </div>
+          <div class="row g-4" id="videoGallery"></div>
+        </div>
+      </section>
+
+      <section class="section-space gifts-section" id="vale-presentes">
+        <div class="container">
+          <div class="row g-4" id="giftCards"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="mb-1">Feito exclusivamente para Malu.</p>
+        <p class="mb-0">Feliz aniversario, meu amor. Hoje e sempre, voce.</p>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="photoModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content custom-modal">
+          <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          <div class="modal-body p-0">
+            <div class="row g-0 align-items-stretch">
+              <div class="col-lg-8">
+                <img id="modalPhotoImage" src="" alt="" class="modal-photo">
+              </div>
+              <div class="col-lg-4 modal-copy">
+                <p class="section-eyebrow">Nossa memoria</p>
+                <h3 id="modalPhotoTitle" class="brush-title modal-title-text"></h3>
+                <p id="modalPhotoDescription"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content custom-modal video-modal-content">
+          <button type="button" class="btn-close modal-close light-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          <div class="ratio ratio-16x9">
+            <iframe id="modalVideoFrame" src="" title="Video para Malu" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" hidden></iframe>
+            <video id="modalVideoNative" class="modal-video-native" controls playsinline hidden></video>
+          </div>
+          <a id="modalVideoFallback" class="video-fallback-link" href="#" target="_blank" rel="noopener" hidden>Abrir video no YouTube</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
