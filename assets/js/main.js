@@ -77,7 +77,7 @@ const photos = [
 
 const videos = [
   {
-    title: "Oi amor da minha vida...",
+    title: "Oi, amor da minha vida...",
     thumb: "https://img.youtube.com/vi/7ZVYAWQ32_Y/hqdefault.jpg",
     youtubeId: "7ZVYAWQ32_Y",
     fallbackUrl: "https://www.youtube.com/watch?v=7ZVYAWQ32_Y",
@@ -85,7 +85,7 @@ const videos = [
     type: "youtube"
   },
   {
-    title: "Eai irma !!",
+    title: "E aí, irmã!",
     thumb: "https://img.youtube.com/vi/2Bgj2nmJd_Y/hqdefault.jpg",
     youtubeId: "2Bgj2nmJd_Y",
     fallbackUrl: "https://www.youtube.com/watch?v=2Bgj2nmJd_Y",
@@ -93,7 +93,7 @@ const videos = [
     type: "youtube"
   },
   {
-    title: "Ola paixao",
+    title: "Olá, paixão",
     thumb: "https://img.youtube.com/vi/50l4eDYUNp4/hqdefault.jpg",
     youtubeId: "50l4eDYUNp4",
     fallbackUrl: "https://www.youtube.com/watch?v=50l4eDYUNp4",
@@ -106,7 +106,7 @@ const gifts = [
   {
     title: "Vale Jantar Especial",
     description:
-      "Um jantar escolhido por voce, sem pressa, com conversa boa, vinho e sobremesa obrigatoria.",
+      "Um jantar escolhido por você, sem pressa, com conversa boa, vinho e sobremesa obrigatória.",
     message: "Quero resgatar meu Vale Jantar infinito."
   },
   {
