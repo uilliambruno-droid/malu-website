@@ -99,6 +99,14 @@ const videos = [
     fallbackUrl: "https://www.youtube.com/watch?v=50l4eDYUNp4",
     description: "Do seu bem, para a paixao dele.",
     type: "youtube"
+  },
+  {
+    title: "Oi, Malu !!",
+    thumb: "https://img.youtube.com/vi/sQ7nxRq_16I/hqdefault.jpg",
+    youtubeId: "sQ7nxRq_16I",
+    fallbackUrl: "https://youtube.com/watch?v=sQ7nxRq_16I",
+    description: "A sua familia te ama muito !.",
+    type: "youtube"
   }
 ];
 
